@@ -1,0 +1,1 @@
+select * from wct2022;

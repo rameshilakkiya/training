@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qqCdrDXn0ga7fuaqspg7zipdpG6ODw35S0BCu94/aRb+ImQJjXhqr4MYZdGajhLx+LtaWlaEqnWOG7/WxXs80A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ilakkiya.r\\Desktop\\training\\c#-2\\LINQJSON\\LINQJSON.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ilakkiya.r\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\ilakkiya.r\Desktop\training\c#-2\AssemblyDemo\CalculatorLib\bin\Debug\net6.0\CalculatorLib.deps.json
+C:\Users\ilakkiya.r\Desktop\training\c#-2\AssemblyDemo\CalculatorLib\bin\Debug\net6.0\CalculatorLib.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\AssemblyDemo\CalculatorLib\obj\Debug\net6.0\CalculatorLib.csproj.AssemblyReference.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\AssemblyDemo\CalculatorLib\obj\Debug\net6.0\CalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilakkiya.r\Desktop\training\c#-2\AssemblyDemo\CalculatorLib\obj\Debug\net6.0\CalculatorLib.AssemblyInfoInputs.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\AssemblyDemo\CalculatorLib\obj\Debug\net6.0\CalculatorLib.AssemblyInfo.cs
+C:\Users\ilakkiya.r\Desktop\training\c#-2\AssemblyDemo\CalculatorLib\obj\Debug\net6.0\CalculatorLib.csproj.CoreCompileInputs.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\AssemblyDemo\CalculatorLib\obj\Debug\net6.0\CalculatorLib.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\AssemblyDemo\CalculatorLib\obj\Debug\net6.0\refint\CalculatorLib.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\AssemblyDemo\CalculatorLib\obj\Debug\net6.0\CalculatorLib.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\AssemblyDemo\CalculatorLib\obj\Debug\net6.0\ref\CalculatorLib.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\AssemblyDemo\CalculatorLib\obj\Debug\net6.0\CalculatorLib.csproj.CopyComplete

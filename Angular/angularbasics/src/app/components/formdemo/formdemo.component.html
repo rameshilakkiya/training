@@ -1,0 +1,46 @@
+<p>formdemo works!</p>
+<h1>Sign Up Form</h1>
+<form #signup="ngForm" (ngSubmit)="register(signup)">
+    <label>Name: </label>
+    <input type="text" name="name" id="name" ngModel required #fullname="ngModel"><br>
+    <p *ngIf="fullname.touched && !fullname.valid" [ngStyle]="{'color':'red'}">Name is Mandatory</p>
+
+    <label>Email: </label>
+    <input type="text" name="Email" id="email" ngModel required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+    #emailCtrl="ngModel"><br>
+    <p *ngIf="emailCtrl.touched && emailCtrl.errors?.['required']" [ngStyle]="{'color':'red'}">Email is mandatory</p>
+    <p *ngIf="emailCtrl.errors && emailCtrl.errors?.['email'] && emailCtrl.touched" [ngStyle]="{'color':'red'}">Email Address should be valid</p>
+    <p *ngIf="emailCtrl.errors && emailCtrl.errors?.['pattern'] && emailCtrl.touched" [ngStyle]="{'color':'red'}">Email pattern should be valid</p>
+    
+    <label>Mobile: </label>
+    <input type="text" name="mobile" id="mobile" ngModel required><br>
+    <label>Password: </label>
+    <input type="text" name="password" id="password" ngModel required><br>
+    <input type="submit" value="Signup">
+
+
+</form>
+<br>
+<!--
+<p>Form element status {{signup.value | json}}</p>
+<p>Name {{fullname.value}}</p>-->
+
+<div *ngIf="regUsers.length>0">
+    <h1>Registered Users</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Password</th>
+        </tr>
+    
+        <tr *ngFor="let user of regUsers">
+            <td>{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.mobile}}</td>
+            <td>{{user.password}}</td>
+        </tr>
+    
+    </table>
+    </div>

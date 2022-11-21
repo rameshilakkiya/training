@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="show">one</div>
+<script>
+
+var i=0;
+function ani(){
+if(i%2==0){
+var a=document.getElementById("show").innerHTML="Two:" +i;
+}
+else{
+document.getElementById("show").innerHTML="One:" +i;
+}
+i++;
+
+}
+setInterval(ani,1000);
+</script>
+</body>
+</html>

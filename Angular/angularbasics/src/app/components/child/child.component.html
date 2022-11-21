@@ -1,0 +1,6 @@
+<p>child works!</p>
+<h2>Message from parent:{{msgToChild}}</h2>
+<h2>Message to parent</h2>
+
+<input type="text" name="msgtoparent" #msgParent>
+<button (click)="postMsgToParent(msgParent.value)">Message to Parent</button>

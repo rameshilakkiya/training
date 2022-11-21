@@ -1,0 +1,56 @@
+<p>employeetemplatedemo works!</p>
+<h1>EMPLOYEE SIGNUPFORM</h1>
+<form #signup="ngForm" (ngSubmit)="register(signup); clear(signup);" >
+    <label>Code: </label>
+    <input type="text" name="code" id="code" ngModel required #code="ngModel"><br>
+    <p *ngIf="code.touched && !code.valid" [ngStyle]="{'color':'red'}">Code is Mandatory</p>
+    <label>Name: </label>
+    <input type="text" name="name" id="name" ngModel required #fullname="ngModel"><br>
+    <p *ngIf="fullname.touched && !fullname.valid" [ngStyle]="{'color':'red'}">Name is Mandatory</p>
+    <label>Department: </label>
+    <input type="text" name="department" id="department" ngModel required #dept="ngModel"><br>
+    <p *ngIf="dept.touched && !dept.valid" [ngStyle]="{'color':'red'}">Department is Mandatory</p>
+    <label>Designation: </label>
+    <input type="text" name="designation" id="designation" ngModel required #desig="ngModel"><br>
+    <p *ngIf="desig.touched && !desig.valid" [ngStyle]="{'color':'red'}">Designation is Mandatory</p>
+    <label>Salary: </label>
+    <input type="text" name="salary" id="salary" ngModel required #sal="ngModel"><br>
+    <p *ngIf="sal.touched && !sal.valid" [ngStyle]="{'color':'red'}">Salary is Mandatory</p>
+    <input type="submit" value="Signup">
+    
+    <button (click)="update(signup)" *ngIf="display">update</button>
+
+
+</form>
+<br>
+<!--
+<p>Form element status {{signup.value | json}}</p>
+<p>Name {{fullname.value}}</p>-->
+
+<div *ngIf="regUsers.length>0">
+    <h1>Registered Users</h1>
+    <table>
+        <tr>
+            <th>Code</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Designation</th>
+            <th>Salary</th>
+        </tr>
+    
+        <tr *ngFor="let user of regUsers">
+            <td>{{user.code}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.department}}</td>
+            <td>{{user.designation}}</td>
+            <td>{{user.salary}}</td>
+            
+            <button (click)="edit(user)">Edit</button>
+            <button id=remove (click)="delete(user.code)">Delete</button>
+            
+        </tr>
+    
+    </table>
+    
+    </div>
+    

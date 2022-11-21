@@ -1,0 +1,55 @@
+<p>simplecalculator works!</p>
+<div class="calc">
+
+<table>
+    <tr>
+        <td>
+            <label>Enter First Number: </label>
+        </td>
+        <td>
+            <input type="text" [(ngModel)]="n1" name="n1"  placeholder="Enter Number1"><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Enter Operation(+,-,*,/): </label>
+        </td>
+        <td>
+            <input type="text" [(ngModel)]="oper" name="oper"  placeholder="Enter operation"><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label>Enter Second Number: </label>
+        </td>
+        <td>
+            <input type="text" [(ngModel)]="n2" name="n2"  placeholder="Enter Number2"><br>
+        </td>
+    </tr>
+    <tr>
+        
+    </tr>
+    <tr>
+        <td>
+
+        </td>
+        <td>
+            <button (click)="arithmatic()">Calculate</button>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Your Result is {{res}}</p>
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+</div>
+

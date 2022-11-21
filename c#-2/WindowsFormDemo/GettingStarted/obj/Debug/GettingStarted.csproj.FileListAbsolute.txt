@@ -1,0 +1,13 @@
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\bin\Debug\GettingStarted.exe.config
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\bin\Debug\GettingStarted.exe
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\bin\Debug\GettingStarted.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\obj\Debug\GettingStarted.csproj.AssemblyReference.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\obj\Debug\GettingStarted.csproj.SuggestedBindingRedirects.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\obj\Debug\GettingStarted.Form1.resources
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\obj\Debug\GettingStarted.Properties.Resources.resources
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\obj\Debug\GettingStarted.csproj.GenerateResource.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\obj\Debug\GettingStarted.csproj.CoreCompileInputs.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\obj\Debug\GettingStarted.exe
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\obj\Debug\GettingStarted.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\obj\Debug\GettingStarted.SimpleInterest.resources
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\GettingStarted\obj\Debug\GettingStarted.SignUp.resources

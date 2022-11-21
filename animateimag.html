@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<style>
+img{
+display:none;
+width:100%;
+}
+</style>
+<body>
+<script>
+var images1=document.querySelectorAll("img");
+let i=0;
+setInterval(add,2000);
+function add(){
+if(i==0){
+images1[i].style.display='block';
+}else{
+images1[i-1].style.display='none';
+images1[i].style.display='block';
+}
+i++;
+}
+</script>
+<div>
+<img src="images/imag.png">
+<img src="images/log.png">
+<img src="images/fws-blog-featured-image.png">
+</div>
+</body>
+</html>

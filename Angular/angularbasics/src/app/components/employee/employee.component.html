@@ -1,0 +1,26 @@
+<p>employee works!</p>
+<table *ngIf="loaded else loading">
+    <tr>
+        
+            <th>CODE</th>
+            <th>EMP_NAME</th>
+            <th>EMP-DEPARTMENT</th>
+            <th>EMP_DESIGNATION</th>
+            <th>EMP_SALARY</th>
+        
+
+    </tr>
+    <tr *ngFor="let employee of employees">
+        <td>{{employee.code}}</td>
+        <td>{{employee.name}}</td>
+        <td>{{employee.dep}}</td>
+        <td>{{employee.desig}}</td>
+        <td *ngIf="display">{{employee.salary}}</td>
+
+    </tr>
+    
+    
+</table>
+<ng-template #loading>
+    <h1>loading....()</h1>
+</ng-template>

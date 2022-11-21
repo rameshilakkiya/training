@@ -1,0 +1,11 @@
+th{
+    border: 1px solid black;
+    background-color: aqua;
+}
+tr{
+    background-color: gray;
+}
+table{
+    width: 100%;
+    height: 50%;
+}

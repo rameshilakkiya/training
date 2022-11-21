@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var arr=[1,5,4];
+
+function inc(){
+var a;
+var f;
+a=parseInt(document.getElementById("n1").value);
+var i=0;
+while(i<arr.length){
+if(a==arr[i]){
+f=1;
+break;
+}
+else{
+f=0;}
+i++;
+}
+console.log(arr[i]);
+if(f==1){
+alert("Already exist");
+}
+else{
+arr.push(a);
+}
+alert(arr);
+}
+
+</script>
+<input type="text" id="n1">
+<button onclick="inc()">ADD</button>
+</body>
+</html>

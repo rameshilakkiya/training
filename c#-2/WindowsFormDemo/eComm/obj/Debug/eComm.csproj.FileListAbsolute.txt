@@ -1,0 +1,11 @@
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\eComm\bin\Debug\eComm.exe.config
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\eComm\bin\Debug\eComm.exe
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\eComm\bin\Debug\eComm.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\eComm\obj\Debug\eComm.csproj.AssemblyReference.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\eComm\obj\Debug\eComm.csproj.SuggestedBindingRedirects.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\eComm\obj\Debug\eComm.Form1.resources
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\eComm\obj\Debug\eComm.Properties.Resources.resources
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\eComm\obj\Debug\eComm.csproj.GenerateResource.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\eComm\obj\Debug\eComm.csproj.CoreCompileInputs.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\eComm\obj\Debug\eComm.exe
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\eComm\obj\Debug\eComm.pdb

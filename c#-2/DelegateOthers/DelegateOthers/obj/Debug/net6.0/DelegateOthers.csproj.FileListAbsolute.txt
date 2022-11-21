@@ -1,0 +1,15 @@
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\bin\Debug\net6.0\DelegateOthers.exe
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\bin\Debug\net6.0\DelegateOthers.deps.json
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\bin\Debug\net6.0\DelegateOthers.runtimeconfig.json
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\bin\Debug\net6.0\DelegateOthers.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\bin\Debug\net6.0\DelegateOthers.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\obj\Debug\net6.0\DelegateOthers.csproj.AssemblyReference.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\obj\Debug\net6.0\DelegateOthers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\obj\Debug\net6.0\DelegateOthers.AssemblyInfoInputs.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\obj\Debug\net6.0\DelegateOthers.AssemblyInfo.cs
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\obj\Debug\net6.0\DelegateOthers.csproj.CoreCompileInputs.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\obj\Debug\net6.0\DelegateOthers.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\obj\Debug\net6.0\refint\DelegateOthers.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\obj\Debug\net6.0\DelegateOthers.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\obj\Debug\net6.0\DelegateOthers.genruntimeconfig.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateOthers\DelegateOthers\obj\Debug\net6.0\ref\DelegateOthers.dll

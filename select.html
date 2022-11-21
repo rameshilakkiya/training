@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SELECT</title>
+</head>
+<style>
+button{
+	margin:30px;
+
+}
+div{
+	padding:10px;
+	border:1px solid powderblue;
+	width:200px;
+
+}
+</style>
+<body>
+<center>
+<h1>My Stream</h1>
+<script>
+function stre(){
+var a=document.getElementById("stream").value;
+alert("Your Selected Stream: " + "'" +a + "'");
+}
+</script>
+<div>
+<strong>Select Your Stream:</strong><select name="stream" id="stream">
+<option>Computer Applications</option>
+<option>Engineering</option>
+<option>Tech</option>
+<option>IT</option>
+</select><br>
+<button name="click" onclick="stre()">Stream</button>
+</div>
+</center>
+</body>
+</html>

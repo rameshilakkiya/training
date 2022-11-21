@@ -1,0 +1,31 @@
+<p>classdemo works!</p>
+<h4>NgClass</h4>
+<ul *ngFor="let person of people">
+  <li [ngClass]="{
+  'text-success':person.country === 'UK',
+  'text-primary':person.country === 'USA',
+  'text-danger':person.country === 'HK'
+  }">
+  {{ person.name }} ({{ person.country }})
+  </li>
+</ul>
+<ul *ngFor="let person of people">
+  <li [class.text-success]="person.country === 'UK'"
+      [class.text-primary]="person.country === 'USA'"
+      [class.text-danger]="person.country === 'HK'">
+    {{ person.name }} ({{ person.country }})
+  </li>
+</ul>
+
+<h1>ngStyle Demo</h1>
+
+<p [ngStyle]="{'color':'brown','background-color':'lightblue'}">This is a paragraph with ngStyle</p>
+
+<h1>ngClass Demo</h1>
+<p [ngClass]="{'bgclass':true}">ngClass Demo</p>
+
+<h1>ngClass Demo- Alternative</h1>
+<p [class.bgclass]=true>ngClass Demo Alternative</p>
+
+<h1>ngClass Demo-multiple class</h1>
+<p [ngClass]="{'bgclass':true,'fontclass':true }">ngClass Demo- multiple</p>

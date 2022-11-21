@@ -1,0 +1,64 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>table</title>
+</head>
+<style>
+.main{
+	margin:50px;50px;50px;50px;
+	padding:100px;
+}
+.head{
+	background-color:powderblue;
+	width:20%;
+	
+	
+}
+
+
+.col1{float:left;
+
+}
+.col2{float:left;
+
+}
+
+
+.r1{float:left;
+
+
+}
+.r2{float:left;
+
+
+}
+.c1{float:left;
+
+
+}
+.c2{float:left;
+
+
+}
+
+</style>
+<body>
+<div class="main">
+<div class="head">
+<div class="col1">Name</div>
+<div class="col2">Age</div>
+<div class="col3">Sex</div>
+</div>
+<div class="row1">
+<div class="r1">Ilakkiya</div>
+<div class="r2">22</div>
+<div class="r3">Female</div>
+</div>
+<div class="row2">
+<div class="c1">Karthika</div>
+<div class="c2">5</div>
+<div class="c3">Female</div>
+</div>
+</div>
+</body>
+</html>

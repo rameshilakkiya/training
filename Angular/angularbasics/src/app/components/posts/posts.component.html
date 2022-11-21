@@ -1,0 +1,30 @@
+<p>posts works!</p>
+<form #postForm="ngForm" (ngSubmit)="addPosts(postForm)">
+
+    <label for="UserId">User Id</label><br>
+    <input type="number" name="userId" ngModel><br>
+    <label for="id">Id</label><br>
+    <input type="number" name="id" ngModel><br>
+    <label for="title">Title</label><br>
+    <input type="text" name="title" ngModel><br>
+    <label for="status">Body</label><br>
+    <input type="text" name="body" ngModel><br>
+    
+    <input type="submit" value="Add Post">
+</form>
+<table>
+    <tr>
+        <th>User Id</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Body</th>
+    </tr>
+
+    <tr *ngFor="let post of posts">
+        <td>{{post.userId}}</td>
+        <td>{{post.id}}</td>
+        <td>{{post.title}}</td>
+        <td>{{post.body}}</td>
+    </tr>
+
+</table>

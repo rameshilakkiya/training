@@ -1,0 +1,1 @@
+﻿select users1.name as UserName,users1.Id as userid ,email,mobile,city,location,address,zipcode, services.name as ServiceName,services.Id as serviceid,description ,serviceprovider.Id as spid,serviceprovider.status from users1 cross join services,serviceprovider  where users1.roleid = 2 and  services.name='plumbing';

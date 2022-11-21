@@ -1,0 +1,53 @@
+﻿@model LocalBusiness1.Models.Users2
+
+@{  
+    ViewBag.Title = "Login";  
+}  
+<form>
+
+    <fieldset>  
+    <legend>Mvc Simple Login Application Demo</legend>  
+
+        @Html.AntiForgeryToken()  
+        @Html.ValidationSummary(true)  
+        @if (@ViewBag.Message != null)
+        {  
+        <div style="border: 1px solid red">  
+                @ViewBag.Message  
+        </div>  
+        }  
+    <table> 
+        <thead>
+            <tr>
+                <th>
+                        @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                        @Html.DisplayNameFor(model => model.Password)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                        @Html.TextBoxFor(a => a.Email)
+
+                </td>
+                <td>
+                        @Html.PasswordFor(a => a.Password)
+
+                </td>
+                    <td></td>
+                        <td>  
+                    <input type="submit" value="Login" />  
+                        </td>
+          
+                <td></td> 
+            </tr>
+        </tbody>
+      
+    </table>  
+    </fieldset>  
+    </form>
+
+  

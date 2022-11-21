@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TABLE</title>
+<center>
+<h1>Find Table</h1></center>
+</head>
+<style>
+.vid{
+	position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 50%; 
+  min-height: 50%;
+}
+table{
+	margin:100px;
+	border:1px solid black;
+	
+	padding:10px;
+	background-image: url('images/imag.png');
+	
+}
+</style>
+<body>
+<video controls class="vid">
+<source src="images/mov_bbb.mp4" type="video/mp4">
+</video>
+<script>
+function table(){
+var a=document.getElementById("n1").value;
+var n=document.getElementById("n2").value;
+console.log(n);
+for(var i=1;i<=n;i++){
+alert(i+"*"+a+"="+(a*i));
+}
+}
+</script>
+<center>
+<div>
+<table>
+<tr><td>Table</td><td><input type="text" id="n1"></td>
+<td><button onclick="table()">Get Table</button></tr>
+<tr><td>Length Of Table</td><td><input type="text" id="n2"></td></tr>
+</table>
+</div>
+
+</center>
+</body>
+</html>

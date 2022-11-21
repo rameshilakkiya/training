@@ -1,0 +1,15 @@
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\bin\Debug\net6.0\ex1basicsofcsharp.exe
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\bin\Debug\net6.0\ex1basicsofcsharp.deps.json
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\bin\Debug\net6.0\ex1basicsofcsharp.runtimeconfig.json
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\bin\Debug\net6.0\ex1basicsofcsharp.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\bin\Debug\net6.0\ex1basicsofcsharp.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\obj\Debug\net6.0\ex1basicsofcsharp.csproj.AssemblyReference.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\obj\Debug\net6.0\ex1basicsofcsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\obj\Debug\net6.0\ex1basicsofcsharp.AssemblyInfoInputs.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\obj\Debug\net6.0\ex1basicsofcsharp.AssemblyInfo.cs
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\obj\Debug\net6.0\ex1basicsofcsharp.csproj.CoreCompileInputs.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\obj\Debug\net6.0\ex1basicsofcsharp.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\obj\Debug\net6.0\refint\ex1basicsofcsharp.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\obj\Debug\net6.0\ex1basicsofcsharp.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\obj\Debug\net6.0\ex1basicsofcsharp.genruntimeconfig.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\ex1basicsofcsharp\ex1basicsofcsharp\obj\Debug\net6.0\ref\ex1basicsofcsharp.dll

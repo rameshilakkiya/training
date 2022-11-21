@@ -1,0 +1,70 @@
+1)create ROLES TABLE
+CREATE TABLE [dbo].[roles]
+(
+	[Id] INT NOT NULL PRIMARY KEY identity, 
+    [rolename] VARCHAR(50) NOT NULL,
+)
+
+2)create USERS TABLE
+CREATE TABLE [dbo].[users1]
+(
+	[Id] INT NOT NULL PRIMARY KEY identity, 
+    [name] VARCHAR(50) NOT NULL, 
+    [email] VARCHAR(100) NOT NULL, 
+    [mobile] BIGINT NOT NULL, 
+    [city] VARCHAR(50) NOT NULL, 
+    [location] VARCHAR(50) NOT NULL, 
+    [address] VARCHAR(100) NOT NULL, 
+    [zipcode] INT NOT NULL, 
+    [password] VARCHAR(50) NOT NULL, 
+    [roleid] INT NOT NULL, 
+    CONSTRAINT [FK_users1_ToTable] FOREIGN KEY ([roleid]) REFERENCES [roles]([Id]),
+)
+
+3)create SERVICES TABLE
+CREATE TABLE [dbo].[services]
+(
+	[Id] INT NOT NULL PRIMARY KEY identity, 
+    [name] VARCHAR(50) NOT NULL, 
+    [description] VARCHAR(100) NOT NULL, 
+    [status] CHAR(10) NOT NULL,
+)
+
+4)create SERVICEPROVIDER TABLE
+CREATE TABLE [dbo].[serviceprovider]
+(
+	[Id] INT NOT NULL PRIMARY KEY identity, 
+    [serviceid] INT NOT NULL, 
+    [userid] INT NOT NULL, 
+    [status] CHAR(10) NOT NULL, 
+    [date] DATETIME NOT NULL, 
+    CONSTRAINT [FK_serviceprovider_ToTable] FOREIGN KEY ([serviceid]) REFERENCES [services]([Id]), 
+    CONSTRAINT [FK_serviceprovider_ToTable_1] FOREIGN KEY ([userid]) REFERENCES [users1]([Id]),
+)
+
+5)create BOOKING TABLE
+CREATE TABLE [dbo].[servicebooking]
+(
+	[Id] INT NOT NULL PRIMARY KEY identity, 
+    [date] DATETIME NOT NULL, 
+    [serviceid] INT NOT NULL, 
+    [spid] INT NOT NULL, 
+    [userid] INT NOT NULL, 
+    [description] VARCHAR(100) NOT NULL, 
+    [status] CHAR(10) NOT NULL, 
+    [providerdescription] VARCHAR(100) NOT NULL, 
+    CONSTRAINT [FK_servicebooking_ToTable] FOREIGN KEY ([serviceid]) REFERENCES [services]([Id]), 
+    CONSTRAINT [FK_servicebooking_ToTable_1] FOREIGN KEY ([spid]) REFERENCES [serviceprovider]([Id]), 
+    CONSTRAINT [FK_servicebooking_ToTable_2] FOREIGN KEY ([userid]) REFERENCES [users1]([Id]),
+)
+
+
+
+insert into services values('plumbing','tapfixer','A');
+insert into services values('electrician','wiring','I');
+insert into services values('doctor','childspecialist','A');
+
+
+insert into serviceprovider values(2,2,'A',2022-09-30);
+insert into serviceprovider values(1,3,'I',2022-08-13);
+insert into serviceprovider values(3,1,'A',2022-09-11);

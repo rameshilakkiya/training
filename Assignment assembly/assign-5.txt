@@ -1,0 +1,48 @@
+1) CREATE TABLE:
+create table CWG(
+code int not null,
+name varchar(100),
+years int not null,
+gold int,silver int,bronze int,
+CONSTRAINT PK_CWG PRIMARY KEY (code,years)
+)
+________________________________________________________________
+2) INSERTION:
+insert into CWG values(1,'Australia',2022,67,57,54)
+insert into CWG values(2,'England',2022,57,66,53)
+insert into CWG values(3,'canada',2022,26,32,34)
+insert into CWG values(4,'India',2022,22,16,23)
+insert into CWG values(5,'New Zealand',2022,20,12,17)
+insert into CWG values(1,'Australia',2018,80,59,59)
+insert into CWG values(2,'England',2018,45,45,46)
+insert into CWG values(3,'India',2018,26,20,20)
+insert into CWG values(4,'Canada',2018,15,40,27)
+insert into CWG values(5,'New Zealand',2018,15,16,15)
+insert into CWG values(31,'Sri Lanka',2022,0,1,3)
+______________________________________________________________
+3)FIND MAXIMUM
+select name as MAXGOLDCOUNTRYIN_2018 from CWG where gold=(select max(gold)from CWG where years=2018)
+select name as MAXGOLDCOUNTRYIN_2022 from CWG where gold=(select max(gold)from CWG where years=2022) 
+______________________________________________________________________________________________________
+5)FIND AVERAGE
+select AVG(silver) from CWG where years=2018
+___________________________________________________________
+6)UPDATE INDIA RECORD
+update CWG set silver=silver+5 where name='India' and years=2022
+_________________________________________________________________
+7)DELETION
+delete from CWG where name='Sri Lanka'
+______________________________________
+8)FIND COUNTRIES BY STARTING LETTER
+select * from CWG where name like'i%'
+
+
+
+
+
+CREATE TABLE Products (
+    productID int NOT NULL PRIMARY KEY,
+    productName int NOT NULL,
+     supplierId int FOREIGN KEY REFERENCES supplier(supplierId),
+	 categoryId int FOREIGN KEY REFERENCES Categories(categoryId)
+);

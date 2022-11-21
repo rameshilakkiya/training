@@ -1,0 +1,17 @@
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\bin\Debug\net6.0\LINQJSON.exe
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\bin\Debug\net6.0\LINQJSON.deps.json
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\bin\Debug\net6.0\LINQJSON.runtimeconfig.json
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\bin\Debug\net6.0\LINQJSON.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\bin\Debug\net6.0\LINQJSON.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\obj\Debug\net6.0\LINQJSON.csproj.AssemblyReference.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\obj\Debug\net6.0\LINQJSON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\obj\Debug\net6.0\LINQJSON.AssemblyInfoInputs.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\obj\Debug\net6.0\LINQJSON.AssemblyInfo.cs
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\obj\Debug\net6.0\LINQJSON.csproj.CoreCompileInputs.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\obj\Debug\net6.0\LINQJSON.csproj.CopyComplete
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\obj\Debug\net6.0\LINQJSON.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\obj\Debug\net6.0\refint\LINQJSON.dll
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\obj\Debug\net6.0\LINQJSON.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\obj\Debug\net6.0\LINQJSON.genruntimeconfig.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\LINQJSON\obj\Debug\net6.0\ref\LINQJSON.dll

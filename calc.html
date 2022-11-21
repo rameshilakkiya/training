@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CALCULATOR</title>
+<center>
+<h1>Arithmetic Operations</h1>
+</head>
+</center>
+<body>
+<script>
+function add(ops){
+var a=document.getElementById("n1").value;
+var b=document.getElementById("n2").value;
+a=parseInt(a);
+b=parseInt(b);
+
+switch (ops){
+
+case "+":
+	alert("Added " + "'" +(a+b) + "'");
+	break;
+case "-":
+	alert("Subtrated " + "'" +(a-b) + "'");
+	break;
+case "*":
+	alert("Multiplied " + "'" +(a*b) + "'");
+	break;
+case "/":
+	let c=a/b;
+	alert("Divided " + "'" +(Math.floor(c*100)) + "'");
+	break;
+case "%":
+	alert("Modulo  " + "'" +(a%b) + "'");
+	break;
+case "avg":
+	
+	alert("Average " + "'" +(a+b)/2 + "'");
+	break;
+default:
+	alert("Type Valid Input");
+}
+
+}
+</script>
+<center>
+<div>
+<table>
+<tr>
+<td>Input1</td><td><input type="text" id="n1"></td></tr>
+<tr>
+<td>Input2</td><td><input type="text" id="n2"></td>
+</tr>
+
+<tr>
+<td><button onclick="add('+')">+</button></td>
+<td><button onclick="add('-')">-</button></td></tr>
+<tr>
+<td><button onclick="add('*')">*</button></td>
+<td><button onclick="add('/')">/</button></td>
+<td><button onclick="add('%')">Mod</button></td>
+<td><button onclick="add('avg')">AVG</button></td>
+</tr>
+
+</table>
+</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        /* #result{
+            margin: auto;
+            padding:5px;
+            border-collapse: colleage;
+        } */
+        table, th, td {
+        border: 1px solid gray;
+        margin:auto;
+        padding:5px;
+
+}
+th {
+  background-color:gray;
+  border-radius: 10px;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+        table{
+            border-color: gray;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+        button{
+            margin: 50px;
+            padding: 5px;
+        }
+        header{
+position:fixed;top:auto;width:100%;text-align:center;padding:3px;background-color:gray;color:white;
+}
+        footer{
+position:fixed;bottom:0;width:100%;text-align:center;padding:3px;background-color:gray;color:white;
+}
+    </style>
+    <header>
+            <p>JSON PLACEHOLDER-Tools</p>
+    </header>
+    <br>
+    <body>
+        <button type="button" onclick="loadDoc()">Show Users</button>
+        <table id="result">
+            <script>
+                function loadDoc(){
+                    const xhttp=new XMLHttpRequest();
+                    xhttp.onreadystatechange=function(){
+                        if(this.readyState==4||this.status==200){
+                            data=JSON.parse(this.responseText)
+                            displayUsers(data);
+                        }
+                    };
+                    xhttp.open("GET","https://jsonplaceholder.typicode.com/users");
+                    xhttp.send();
+                }
+                function displayUsers(user){
+                    
+                    data="<tr><th>User Name</th><th>EmailId</th><th>City</th><th>Phone</th><th>Website</th></tr>"
+                    for(let i=0;i<user.length;i++){
+                        users=user[i];
+                        data=data+`<tr><td>${users.name}</td><td>${users.email}</td><td>${users.address.city}</td><td>${users.phone}</td><td>${users.website}</td></tr>`
+                    }
+                    document.getElementById("result").innerHTML=data;
+                }
+            </script>
+
+        </table>
+        <footer>
+            <p>By Ilakkiya</p>
+        </footer>
+    </body>
+</html>

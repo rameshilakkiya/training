@@ -1,0 +1,34 @@
+<html>
+<style>
+body{
+
+margin:50px;
+}
+</style>
+<body>
+<center>
+<script type="text/javascript">
+function valid(){
+var a=document.getElementById("name").value.toLowerCase();
+var b=document.getElementById("psw").value.toLowerCase();
+console.log(a);
+if(a.length>5){
+alert('character should be less than 5');
+}
+else if(a=="admin" && b=="password"){
+alert('Successfully login');
+}
+else{
+alert('unsuccessfully login');
+}
+
+}
+</script>
+<form>
+UserName <input type="text" id="name"><br><br>
+Password <input type="password" id="psw"><br><br>
+<button onclick="valid()">Click</button>
+</form>
+</center>
+</body>
+</html>

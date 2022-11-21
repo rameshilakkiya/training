@@ -1,0 +1,11 @@
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\simpleinterest\bin\Debug\simpleinterest.exe.config
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\simpleinterest\bin\Debug\simpleinterest.exe
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\simpleinterest\bin\Debug\simpleinterest.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\simpleinterest\obj\Debug\simpleinterest.csproj.AssemblyReference.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\simpleinterest\obj\Debug\simpleinterest.csproj.SuggestedBindingRedirects.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\simpleinterest\obj\Debug\simpleinterest.Properties.Resources.resources
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\simpleinterest\obj\Debug\simpleinterest.csproj.GenerateResource.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\simpleinterest\obj\Debug\simpleinterest.csproj.CoreCompileInputs.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\simpleinterest\obj\Debug\simpleinterest.exe
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\simpleinterest\obj\Debug\simpleinterest.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\WindowsFormDemo\simpleinterest\obj\Debug\simpleinterest.simpleinterest.resources

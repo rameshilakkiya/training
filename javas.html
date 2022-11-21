@@ -1,0 +1,21 @@
+<html>
+<body>
+<script type="text/javascript">
+function valid(){
+var a=document.getElementById("name").value;
+var b=document.getElementById("age").value;
+if(a.length>5){
+alert('character should be less than 5');
+}
+if(b>10){
+alert("give a proper value");
+}
+}
+</script>
+<form action="sub.html">
+Name<input type="text" id="name"><br>
+Age<input type="text" id="age">
+<button onclick="valid()">Click</button>
+</form>
+</body>
+</html>

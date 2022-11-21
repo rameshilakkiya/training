@@ -1,0 +1,8 @@
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateAndOthers\DelegateAndOthers\bin\Debug\DelegateAndOthers.exe.config
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateAndOthers\DelegateAndOthers\bin\Debug\DelegateAndOthers.exe
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateAndOthers\DelegateAndOthers\bin\Debug\DelegateAndOthers.pdb
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateAndOthers\DelegateAndOthers\obj\Debug\DelegateAndOthers.csproj.AssemblyReference.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateAndOthers\DelegateAndOthers\obj\Debug\DelegateAndOthers.csproj.SuggestedBindingRedirects.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateAndOthers\DelegateAndOthers\obj\Debug\DelegateAndOthers.csproj.CoreCompileInputs.cache
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateAndOthers\DelegateAndOthers\obj\Debug\DelegateAndOthers.exe
+C:\Users\ilakkiya.r\Desktop\training\c#-2\DelegateAndOthers\DelegateAndOthers\obj\Debug\DelegateAndOthers.pdb

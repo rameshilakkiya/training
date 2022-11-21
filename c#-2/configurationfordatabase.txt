@@ -1,0 +1,6 @@
+<appSettings>
+		<add key="ValidationSettings:UnobtrusiveValidationMode" value="None" />
+	</appSettings>
+	<connectionStrings>
+		<add name="dbcs" connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ilakkiya.r\Desktop\training\c#-2\eComProjectTemplate\eComProjectTemplate\App_Data\Databaseecom.mdf;Integrated Security=True" providerName="System.Data.SqlClient"/>
+	</connectionStrings>

@@ -1,0 +1,24 @@
+public void displayTopStates()
+        {
+            foreach(var rate in listCorona)
+            {
+                if (maxDeaths < rate.death)
+                {
+                    maxDeaths = rate.death;
+
+                }
+                
+            }
+            Console.WriteLine(maxDeaths);
+            foreach (var rat in listCorona)
+            {
+                if (maxDeaths == rat.death)
+                {
+                    listCorona.RemoveAt(listCorona.IndexOf(rat));
+
+                }
+
+            }
+            Console.WriteLine("Top death rate");
+            //Console.WriteLine(a.Max());
+        }

@@ -1,0 +1,1 @@
+﻿select top(5) * from empp;

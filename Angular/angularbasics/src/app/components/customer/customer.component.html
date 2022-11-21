@@ -1,0 +1,23 @@
+<p>customer works!</p>
+<table>
+    <tr>
+        
+            <th>ID</th>
+            <th>CUS_NAME</th>
+            <th>CUS-EMAIL</th>
+            <th>CUS_MOBILE</th>
+            <th>CUS_LOCATION</th>
+        
+
+    </tr>
+    <tr *ngFor="let customer of customers">
+        <td>{{customer.id}}</td>
+        <td>{{customer.name}}</td>
+        <td>{{customer.email}}</td>
+        <td>{{customer.mobile}}</td>
+        <td>{{customer.location}}</td>
+
+    </tr>
+    
+    
+</table>

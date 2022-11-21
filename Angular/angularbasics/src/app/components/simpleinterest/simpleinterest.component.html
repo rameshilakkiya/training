@@ -1,0 +1,14 @@
+<p>simpleinterest works!</p>
+<div>
+
+
+<label>Enter Principal Amount: </label>
+<input type="text" [(ngModel)]="principal" name="principal"  placeholder="Enter your name"><br>
+<label>Enter Rate of Interest: </label>
+<input type="text" [(ngModel)]="rate" name="rate"  placeholder="Enter your rate"><br>
+<label>Enter Duration: </label>
+<input type="text" [(ngModel)]="time" name="time"  placeholder="Enter your years"><br>
+
+<button (click)="Calculate()">Find</button>
+<p>Your Simpleinterest is {{si}}</p>
+</div>
